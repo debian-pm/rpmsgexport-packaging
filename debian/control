@@ -1,0 +1,16 @@
+Source: rpmsgexport
+Section: unknown
+Priority: optional
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://github.com/andersson/rpmsgexport
+Vcs-Git: git://github.com/debian-pm/rpmsgexport-packaging.git
+Vcs-Browser: https://github.com/debian-pm/rpmsgexport-packaging
+
+Package: rpmsgexport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tool to create endpoint devices for remoteproc devices
+ rpmsgexport implements RPMSG_CREATE_EPT_IOCTL for usage in udev rules
+ to automatically create endpoint devices as remoteproc devices are booted.
