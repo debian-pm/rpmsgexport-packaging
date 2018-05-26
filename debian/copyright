@@ -3,11 +3,15 @@ Upstream-Name: rpmsgexport
 Source: https://github.com/andersson/rpmsgexport
 
 Files: *
-Copyright: 2016-17 Linaro Ltd
+Copyright: 2016, 2017, Linaro Ltd
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2018 Jonah Brüchert
+Copyright: 2018, Jonah Brüchert
+License: BSD-3-clause
+
+Files: rpmsgexport.c
+Copyright: 2016, Linaro Ltd.
 License: BSD-3-clause
 
 License: BSD-3-clause
